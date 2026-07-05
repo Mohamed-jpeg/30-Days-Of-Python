@@ -9,10 +9,10 @@ print(2 * 3)   # multiplication(*)
 print(3 + 2)   # addition(+)
 print(3 - 2)   # subtraction(-)
 print(3 * 2)   # multiplication(*)
-print(3 / 2)   # division(/)
+print(3 / 2)   # division(/) full division
 print(3 ** 2)  # exponential(**)
-print(3 % 2)   # modulus(%)
-print(3 // 2)  # Floor division operator(//)
+print(3 % 2)   # modulus(%)   rest 
+print(3 // 2)  # Floor division operator(//) division without the "after ."
 
 # Checking data types
 
