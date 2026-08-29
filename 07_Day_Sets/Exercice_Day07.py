@@ -4,14 +4,25 @@ A = {19, 22, 24, 20, 25, 26}
 B = {19, 22, 20, 25, 26, 24, 28, 27}
 age = [22, 19, 24, 25, 26, 24, 25, 24]
 
-##Level 1
-print( len(it_companies) )  # length of the set
-it_companies.add('Twitter')  # add an item to the set
-it_companies.update(['LinkedIn', 'Snapchat'])  # add multiple items to the set
-it_companies.remove('IBM')  # remove an item from the set
-# if the item we want to remove doesnt exist 'remove' will throw an error yet discard wont
-
 ##Level 2
-C = A.union(B)  # join A and B
-C=A.intersection(B)  # find A and B intersection
-print (C)
+#1
+print(len(it_companies)) 
+
+#2
+print(A.intersection(B))
+
+#3
+print(A.issubset(B))
+
+#4
+print(A.isdisjoint(B))
+
+#5
+A.update(B)
+B.update(A)
+
+#6
+del A
+del B
+
+
